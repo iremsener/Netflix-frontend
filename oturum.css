@@ -1,0 +1,96 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(34, 34, 34);
+}
+
+/* Hero image */
+.hero-image {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(img/arkaplan.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.box{
+    padding-left: 20px;
+    padding-top: 25px;
+    height: 400px;
+    width: 40%;
+    background: linear-gradient(rgba(0, 0, 0, 0.756), rgba(0, 0, 0, 0.774));
+}
+form{
+    width: 80%;
+    margin-top: -30px !important;
+}
+input {
+    background-color: rgb(53, 50, 50);
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    margin: 15px 0;
+}
+input:focus {
+    outline: 1px solid blue;
+}
+form a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+}
+button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #3B82F6;
+    color: white;
+    font-weight: 600;
+}
+.linkler {
+    width: 80%;
+    margin: auto;
+    color: rgb(159, 159, 159);
+    margin-top: 15px;
+}
+.cizgiler {
+    display: flex;
+    justify-content: space-around;
+}
+.cizgi {
+    width: 83%;
+    height: 1px;
+    background-color: rgb(91, 91, 91);
+    margin-top: 6px;
+}
+@media screen and (max-width: 2230px ){
+    .box{
+        width: 40%;
+        
+    }
+}
+@media screen and (max-width: 890px ){
+    .box{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 730px ){
+    .box{
+        width: 60%;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 630px ){
+    .box{
+        width: 80%;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 530px ){
+    .box{
+        width: 90%;
+    }
+}
